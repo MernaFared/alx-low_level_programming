@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
-* main - main main block
+* main -main block
 * Return: 0
 *
 */
-int main (void)
+int main(void)
 {
-puts("\"programming is like building a multilingual puzzle");
+puts("\"programmingis like building a multilingual puzzle/n");
 return (0);
 }
