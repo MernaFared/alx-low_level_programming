@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-* _atoi - converts a string to an int
-* @s: the string to be changed
-* Return: the converted int
+* _atoi -converts a string to an int
+* @s:the string to be changed
+* Return:the converted int
 *
 */
 int _atoi(char *s)
@@ -17,5 +17,5 @@ num = num * 10 + (*s - '0');
 else if (num > 0)
 break;
 } while (*s++);
-return (num * sign);
+return (num *sign);
 }
